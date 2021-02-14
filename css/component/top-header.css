@@ -1,0 +1,41 @@
+.top-header{
+  margin-top: 40px;
+  width: 100%;
+
+  display: flex;
+}
+
+.top-header__title{
+  position: relative;
+  left: 0px;
+  width: 50%;
+  padding-left: 10px;
+
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.top-header__icons{
+  width: 50%;
+
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding-right: 10px;
+}
+
+.top-header__icons span i{
+  transition: transform 0.5s ease-in-out;
+}
+
+.top-header__icons span i:hover{
+  transform: scale(1.2);
+}
+
+.top-header__icons span{
+  padding: 0px 6px;
+}
+
+.top-header__icons-anchor{
+  color: black;
+}

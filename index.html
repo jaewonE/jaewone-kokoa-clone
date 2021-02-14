@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>repl.it</title>
+    <link href="css/style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <div class="top-bar">
+      <div class="top-bar__element">
+        <span>No Service</span>
+        <i class="fas fa-wifi"></i>
+      </div>
+      <div class="top-bar__element">
+        18:43
+      </div>
+      <div class="top-bar__element">
+        100%
+        <i class="fas fa-battery-full"></i>
+        <i class="fas fa-bolt"></i>
+      </div>
+    </div>
+    <header id = "login-header">
+      <h1>Welcome to KokaoTalk</h1>
+      <span>if you have a KaKao Account,<br>log in with your email or phone number</span>
+    </header>
+    <form class="login-form" action="friends.html" method="get">
+      <input required name = "input_id" type="email" class="login-form__input" placeholder="Email or phone number">
+      <input required name = "input_password" type="password" class="login-form__input" placeholder="Password">
+      <input type="submit" class="login-form__btn"  value="Log in">
+      <input type="submit" class="login-form__btn"  value="Sign Up">
+    </form>
+
+    <div id="splash-screen">
+      <i class="fas fa-comment"></i>
+    </div>
+
+    <div id="no-mobile">
+      <span>Please reduce your screen size!</span>
+    </div>
+    
+    <script src="script.js"></script>
+    <script
+      src="https://kit.fontawesome.com/6478f529f2.js"
+      crossorigin="anonymous">
+    </script>
+  </body>
+</html>

@@ -1,0 +1,53 @@
+.top-setting{
+  position: fixed;
+  width: 100%;
+  box-sizing: border-box;
+  top: 0px;
+
+  padding: 40px 20px;
+  padding-bottom: 10px;
+  display: flex;
+  align-items: center;
+  font-size: 25px;
+  font-weight: 600;
+  z-index: 1;
+}
+
+.top-setting__chat-color{
+  background-color: #abc1d1;
+}
+
+.top-setting__setting-color{
+  background-color: white;
+}
+
+.chat-background{
+  background-color: var(--chat-background-color);
+}
+
+.top-setting__element{
+  width: 33%;
+}
+
+.top-setting__element span{
+  margin-left: 7px;
+}
+
+.top-setting__element:first-child{
+  display: flex;
+  justify-content: flex-start;
+}
+
+.top-setting__element:nth-child(2){
+  display: flex;
+  justify-content: center;
+}
+
+.top-setting__element:last-child{
+  display: flex;
+  justify-content: flex-end;
+}
+
+.top-setting__element-left-icons i{
+  margin-left: 10px;
+}

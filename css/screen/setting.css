@@ -1,0 +1,51 @@
+.settings-contents{
+  position: relative;
+  top: 75px;
+}
+
+.setting-contents__element{
+  padding: 30px 10px;
+  border-bottom: 1px solid rgba(0,0,0,0.05);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  font-size: 25px;
+  font-weight: 400;
+}
+
+.setting-contents__element:nth-child(3){
+  padding-bottom: 60px;
+  margin-bottom: 15px;
+}
+
+.setting-contents__element div:nth-child(1){
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.setting-contents__icon{
+  display: block;
+  width: 30px;
+  height: 30px;
+  justify-content: center;
+  align-items: center;
+}
+
+.setting-contents__element div:nth-child(2){
+  font-size: 20px;
+  opacity: 0.5;
+  display: flex;
+  align-items: center;
+}
+
+.setting__icon-preview{
+  bottom: 3px;
+  left: 130px;
+
+  width: 17px;
+  height: 17px;
+  font-size: 13px;
+  font-weight: 600;
+}

@@ -1,0 +1,33 @@
+.additional-info__speech-bubble{
+  position: relative;
+  right: 20px;
+  bottom: 5px;
+}
+
+.suggestions__title{
+  margin: 15px 15px;
+  font-size: 18px;
+  font-weight: 550;
+}
+
+.suggestions__content-area div i{
+  background-color: var(--kakao-color);
+  padding: 5px;
+  color: black;
+  border-radius: 20%;
+}
+
+.suggestions__content-area div{
+  width: 90px;
+  margin: 10px 5px;
+}
+
+.suggestions__content-area div span{
+  font-size: 13px;
+}
+
+.additional_features__icon-preview-point{
+  bottom: 78px;
+  left: 64px;
+}
+

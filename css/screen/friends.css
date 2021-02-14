@@ -1,0 +1,50 @@
+#friends-display-link{
+  margin-top: 15px;
+  padding: 10px 0px;
+
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+
+  background-color: rgba(1,1,1,0.05);
+}
+
+#friends-display-link i{
+  padding: 0px 5px;
+  opacity: 0.4;
+}
+
+#friends-display-link h4{
+  font-weight: 400;
+  color: black;
+}
+
+#friends-display-link h4:hover{
+  font-weight: 600;
+  color: blueviolet;
+}
+
+@keyframes hideSplashScreen {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+    visibility: hidden;
+  }
+}
+
+#splash-screen {
+  background-color: var(--kakao-color);
+  position: absolute;
+  height: 100vh;
+  width: 100vw;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 132px;
+  animation: hideSplashScreen 0.3s ease-in-out forwards;
+  animation-delay: 2s;
+  z-index: 3;
+}

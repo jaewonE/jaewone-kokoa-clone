@@ -1,0 +1,39 @@
+.top-bar{
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  display: flex;
+  z-index: 2;
+}
+
+.top-bar__element{
+  width: 33%;
+  font-weight: 600;
+}
+
+.top-bar__element:first-child{
+  display: flex;
+  justify-content: flex-start;
+}
+
+.top-bar__element:first-child span{
+  margin-right: 5px;
+}
+
+.top-bar__element:nth-child(2){
+  display: flex;
+  justify-content: center;
+}
+
+.top-bar__element:last-child{
+  display: flex;
+  justify-content: flex-end;
+}
+
+.top-bar__element:last-child i{
+  margin-left: 5px;
+}
+
+.top-bar__chat-color{
+  background-color: #abc1d1;
+}
