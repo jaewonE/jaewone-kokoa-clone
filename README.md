@@ -1,5 +1,5 @@
-#Kokoa Clone 2020 Update
+# Kokoa Clone 2020 Update
 
-#made my JaewonE with Nomad coder
+# made my JaewonE with Nomad coder
 
-#Email: importjaewonE@gmail.com
+Email: importjaewonE@gmail.com
